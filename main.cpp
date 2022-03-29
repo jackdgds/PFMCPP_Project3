@@ -53,51 +53,51 @@ Sub Object 1: Steering Wheel
     Name 4 things you'll find on the:    Steering Wheel
         1) paddle shifters
         2) 'cruise control' controls
-        3) 
-        4) 
+        3) Mercedes logo
+        4) horn
     Name 2 things you can do with the:   Steering Wheel
         1) adjust cruise control settings.
-        2)
+        2) steer the car
         
 Sub Object 2: Instrument Cluster
     Name 4 things you'll find on the:   Instrument Cluster
-        1)
-        2)
-        3)
-        4)
+        1) gear indicator
+        2) speedometer
+        3) indicator lights
+        4) odometer
     Name 3 things you can do with the:   Instrument Cluster
-        1)
-        2)
-        3)
+        1) indicate the intended direction to turn
+        2) monitor car's speed
+        3) monitor trip distance
     
 Sub Object 3: Environment Controls
     Name 3 things you'll find on the:    Environment Controls
-        1)
-        2)
-        3)
+        1) heater
+        2) air conditioner
+        3) fan zone controls
     Name 3 things you can do with the:   Environment Controls
-        1)
-        2)
-        3)
+        1) increase cabin temperature
+        2) decrease cabin temperature
+        3) control airflow placement
 
 Sub Object 4: Infotainment System
     Name 3 things you'll find on the:    Infotainment System
-        1)
-        2)
-        3)
+        1) car stereo controls
+        2) speaker fade and balance
+        3) radio 
     Name 3 things you can do with the:   Infotainment System
-        1)
-        2)
-        3)
+        1) listen to music
+        2) control volume of music
+        3) control speaker fade and balance
 
 Sub Object 5: Seat 
     Name 3 things you'll find on the:    Seat
-        1)
-        2)
-        3)
+        1) leather
+        2) height adjustment
+        3) backrest angle adjustment
     Name 2 things you can do with the:   Seat
-        1)
-        2)
+        1) sit in it
+        2) control the backrest angle
 */
 
 /*
@@ -154,61 +154,7 @@ Part 1b Assignment: 1 Step
         'int float double bool char std::string'.
 */
 
-/*
-Thing 1)
-5 properties:
-    1)
-    2)
-    3)
-    4)
-    5)
-3 things it can do:
-    1)
-    2)
-    3)
- */
 
-/*
-Thing 2)
-5 properties:
-    1)
-    2)
-    3)
-    4)
-    5)
-3 things it can do:
-    1)
-    2)
-    3)
- */
-
-/*
-Thing 3)
-5 properties:
-    1)
-    2)
-    3)
-    4)
-    5)
-3 things it can do:
-    1)
-    2)
-    3)
- */
-
-/*
-Thing 4)
-5 properties:
-    1)
-    2)
-    3)
-    4)
-    5)
-3 things it can do:
-    1)
-    2)
-    3)
- */
 
  /*
 Part 1c - Lesson
@@ -278,20 +224,6 @@ Define an object that is made of 5 sub-objects.
     These 5 sub-objects will not be defined using Primitives, but instead will be their own UDTs 
     you'll define these 5 sub-objects in Part 1d.
 */
-
-/*
-Thing 10)
-5 properties:
-    1)
-    2)
-    3)
-    4)
-    5)
-3 things it can do:
-    1)
-    2)
-    3)
- */
 
 /*
 Part 1d - Lesson
@@ -384,75 +316,7 @@ each property for UDTs 5 - 9.
 Step 3 is written below UDTs 5 - 9
 */
 
-/*
-Thing 5)
-5 properties:
-    1)
-    2)
-    3)
-    4)
-    5)
-3 things it can do:
-    1)
-    2)
-    3)
- */
 
-/*
-Thing 6)
-5 properties:
-    1)
-    2)
-    3)
-    4)
-    5)
-3 things it can do:
-    1)
-    2)
-    3)
- */
-
-/*
-Thing 7)
-5 properties:
-    1)
-    2)
-    3)
-    4)
-    5)
-3 things it can do:
-    1)
-    2)
-    3)
- */
-
-/*
-Thing 8)
-5 properties:
-    1)
-    2)
-    3)
-    4)
-    5)
-3 things it can do:
-    1)
-    2)
-    3)
- */
-
-/*
-Thing 9)
-5 properties:
-    1)
-    2)
-    3)
-    4)
-    5)
-3 things it can do:
-    1)
-    2)
-    3)
- */
 
 /*
 ===================
@@ -471,9 +335,144 @@ MOVE THEM BELOW this block comment and put them in numerical order
 After you have MOVED your 10 UDTs, send me a DM with your pull request link.
 I will review the pseudo-code that you have written.
 */
+/*
+Thing 1) Drum set
+5 properties:
+    1) number of drums (int)
+    2) number of cymbals (int)
+    3) name of brand (std::string)
+    4) types of heads (std::string)
+    5) age (int)
+3 things it can do:
+    1) be played by person
+    2) be tuned to pitches
+    3) make rhythm
+ */
 
+/*
+Thing 2) Fridge
+5 properties:
+    1) number of shelves (int)
+    2) number of drawers (int)
+    3) number of temperature controls (int)
+    4) number of handles (int)
+    5) number of light bulbs (int)
+3 things it can do:
+    1) refrigerate food
+    2) freeze food
+    3) refrigerate drinks
+ */
 
+/*
+Thing 3) Barbecue
+5 properties:
+    1) number of grills (int)
+    2) number of burners (int)
+    3) number of temperature control knobs (int)
+    4) display for temperature (float)
+    5) name of brand (std::string)
+3 things it can do:
+    1) turn on
+    2) burn propane
+    3) cook food
+ */
 
+/*
+Thing 4) Gas station
+5 properties:
+    1) number of pumps (int)
+    2) types of fuel (std::string)
+    3) number of squeegies (int)
+    4) amount of profit made per week (float)
+    5) number of cars serviced per day (int)
+3 things it can do:
+    1) provide fuel to cars
+    2) accept payment at pumps
+    3) dispense different fuel types
+ */
+/*
+Thing 5) screen
+5 properties:
+    1) resolution (int)
+    2) touch (bool)
+    3) brightness (double)
+    4) refresh rate (Hz) (float)
+    5) width in cm (int)
+3 things it can do:
+    1) display web content
+    2) be interacted with by touch 
+    3) adjust brightness
+ */
+
+/*
+Thing 6) keyboard
+5 properties:
+    1) number of alpha keys (int)
+    2) number of numeric keys (int)
+    3) released (bool)
+    4) depressed (bool)
+    5) number of functional keys (int)
+3 things it can do:
+    1) type words
+    2) scroll pages
+    3) perform complex multikey actions 
+ */
+
+/*
+Thing 7) sound system
+5 properties:
+    1) number of speakers (int)
+    2) impedance rating (ohm) (int)
+    3) number of amplifiers (int)
+    4) brand of speaker (std::string)
+    5) number of connected wires (int)
+3 things it can do:
+    1) project sound 
+    2) mute sound
+    3) indicate alerts
+ */
+
+/*
+Thing 8) trackpad
+5 properties:
+    1) clicked (bool)
+    2) released (bool)
+    3) number of fingers for swipe (int)
+    4) number of fingers for scroll (int)
+    5) number of fingers for rotate (int)
+3 things it can do:
+    1) scroll web pages
+    2) swipe between applications
+    3) select elements of a page
+ */
+
+/*
+Thing 9) hard drive 
+5 properties: 
+    1) memory size (float)
+    2) graphics card type (std::string)
+    3) chip (std::string)
+    4) processor (GHz) (float)
+    5) operating system (std::string)
+3 things it can do:
+    1) stores digital content
+    2) allows interaction with user
+    3) runs operating system
+ */
+
+/*
+Thing 10) Laptop
+5 properties:
+    1) screen
+    2) keyboard
+    3) trackpad
+    4) sound system
+    5) hard drive
+3 things it can do:
+    1) connect to internet
+    2) use internet browser
+    3) run applications
+ */        
 
 /*
  MAKE SURE YOU ARE NOT ON THE MASTER BRANCH
